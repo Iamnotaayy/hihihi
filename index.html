@@ -57,6 +57,8 @@
       font-size: 18px;
       outline: none;
       text-transform: none;
+      text-transform: initial; /* optional, resets any inherited styles */
+      text-transform: unset;   /* safest way to remove forced uppercase */
     }
 
     .cell.solved input {
@@ -136,6 +138,7 @@
   </script>
 </body>
 </html>
+
 
 
 
